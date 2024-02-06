@@ -17,7 +17,8 @@ Profile data is fetched from a flat JSON file and used to populate the landing p
 The UI pulls and displays images stored as links in the JSON data.
 
 # Getting started
-1. Clone the repository: git clone https://github.com/kweyuteshi/Kweyu_FE_UI-Developer-Challenge.git
+1. Clone the repository:
+  ### 'git clone https://github.com/kweyuteshi/Kweyu_FE_UI-Developer-Challenge.git'
 2. Install dependecies such as node js from https://nodejs.org/en
 
 
