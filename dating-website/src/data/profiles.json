@@ -1,67 +1,72 @@
 [
-    {
-      "id": 1,
-      "name": "Ufuoma Adewale",
+  {
+    "id": 1,
+    "name": "Ufuoma Adewale",
+    "age": 18,
+    "location": "Githurai",
+    "image": "https://plus.unsplash.com/premium_photo-1666265385067-8a18a50688ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aHVtYW58ZW58MHx8MHx8fDA%3D",
+    "bio": "Fitness enthusiast and adrenaline junkie. Love trying out new workout routines.",
+    "interests": ["Fitness", "Adventure sports", "Traveling"],
+    "height": "6'0\"",
+    "relationshipStatus": "Single",
+    "lookingFor": "Casual Dating"
+    
+
+  },
+
+  {
+      "id": 2,
+      "name": "Konstantine Alvíss",
       "age": 28,
-      "location": "Githurai",
-      "image": "https://link-to-image1.com",
+      "location": "Roysambu",
+      "image": "https://images.unsplash.com/photo-1598379930661-b0c5701f8eb7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhc3Nwb3J0JTIwcGhvdG98ZW58MHx8MHx8fDA%3D",
       "bio": "I love outdoor activities and enjoy exploring new places.",
       "interests": ["Hiking", "Photography", "Cooking"],
-      "height": "6'0\"",
-      "relationshipStatus": "Single",
-      "lookingFor": "Casual Dating" 
+      "height": "5'11\"",
+      "relationshipStatus": "Divorced",
+      "lookingFor": "Activity Partner"
+       
     },
 
     {
-        "id": 2,
-        "name": "Konstantine Alvíss",
-        "age": 18,
-        "location": "Roysambu",
-        "image": "https://link-to-image1.com",
-        "bio": "Fitness enthusiast and adrenaline junkie. Love trying out new workout routines.",
-        "interests": ["Fitness", "Adventure sports", "Traveling"],
-        "height": "5'11\"",
-        "relationshipStatus": "Divorced",
-        "lookingFor": "Activity Partner"   
-      },
+      "id": 3,
+      "name": "Dollie Kate",
+      "age": 28,
+      "location": "Lavington",
+      "image": "https://images.unsplash.com/photo-1616002411355-49593fd89721?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Tech geek and aspiring entrepreneur. Enjoy coding and building new things.",
+      "interests": ["Programming", "Startups", "Board games"],
+      "height": "5'6\"",
+      "relationshipStatus": "Single",
+      "lookingFor": "Intellectual Connection"
+      
+    },
 
-      {
-        "id": 3,
-        "name": "Dollie Kate",
-        "age": 28,
-        "location": "Lavington",
-        "image": "https://link-to-image1.com",
-        "bio": "Tech geek and aspiring entrepreneur. Enjoy coding and building new things.",
-        "interests": ["Programming", "Startups", "Board games"],
-        "height": "5'6\"",
-        "relationshipStatus": "Single",
-        "lookingFor": "Intellectual Connection"
-      },
+    {
+      "id": 4,
+      "name": "Alise Zariah",
+      "age": 32,
+      "location": "Karen",
+      "image": "https://images.unsplash.com/photo-1557296387-5358ad7997bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "bio": "Passionate about art and culture. Always up for a good book or a museum visit.",
+      "interests": ["Art", "Reading", "Museum visits"],  
+      "height": "5'8\"",
+      "relationshipStatus": "Single",
+      "lookingFor": "Serious Relationship"
+      
+    },
 
-      {
-        "id": 4,
-        "name": "Alise Zariah",
-        "age": 32,
-        "location": "Karen",
-        "image": "https://link-to-image1.com",
-        "bio": "Passionate about art and culture. Always up for a good book or a museum visit.",
-        "interests": ["Art", "Reading", "Museum visits"],  
-        "height": "5'8\"",
-        "relationshipStatus": "Single",
-        "lookingFor": "Serious Relationship"
-      },
-
-      {
-        "id": 5,
-        "name": "Deanna Sabella",
-        "age": 23,
-        "location": "Kangemi",
-        "image": "https://link-to-image1.com",
-        "bio": "Beach lover and foodie. Trying out different cuisines is my favorite pastime.",
-        "interests": ["Beach", "Food", "Traveling"],
-        "relationshipStatus": "Single",
-        "lookingFor": "Foodie Partner"
-      }
-    
-  ]
+    {
+      "id": 5,
+      "name": "Deanna Sabella",
+      "age": 23,
+      "location": "Kangemi",
+      "image": "https://images.unsplash.com/photo-1541216970279-affbfdd55aa8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
+      "bio": "Beach lover and foodie. Trying out different cuisines is my favorite pastime.",
+      "interests": ["Beach", "Food", "Traveling"],
+      "relationshipStatus": "Single",
+      "lookingFor": "Foodie Partner"
+      
+    }
   
+]
