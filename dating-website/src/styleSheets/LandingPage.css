@@ -1,9 +1,10 @@
+
 .landing-page {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: #f0f0f0; 
+    background-color: #FFE5B4; 
   }
   
   .landing-page h1 {
@@ -16,7 +17,10 @@
     margin-bottom: 30px;
   }
 
-  .card-container a:hover .card {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
+  .card-container {
+    background-color: #e6be74;
+  }
+
+  .btn {
+background-color: black;
   }

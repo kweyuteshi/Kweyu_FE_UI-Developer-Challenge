@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import profilesData from '../data/profiles.json';
 import "../styleSheets/ProfilePage.css"
 import Logo from '../components/logo.png';
+import { Link } from 'react-router-dom';
 
 const ProfilePage: React.FC = () => {
   // Get the profile ID from the URL params
@@ -21,10 +22,12 @@ const ProfilePage: React.FC = () => {
   return (
     
     <div className="profile-page">
+        <Link to ="/" className='logo-link'>
         <img src={Logo} alt="Logo" style={{width: '200px', height: 'auto'}} />
-      <div className="profile-card bg-light p-4 rounded shadow">
+        </Link>
+      <div className="profile-card bg-light p-4 rounded shadow ">
         <img src={profile.image} className="card-img-top" alt={profile.name} style={{ maxWidth: '500px', height: 'auto', borderRadius: '10px' }} />
-        <div className="card-body">
+        <div className="card-body profile-incard">
           <h5 className="card-title fs-4">{profile.name}</h5>
           <p className="profile-details mb-4 fs-5" style={{ color: '#333' }}>{`${profile.age} years old, ${profile.location}`}</p>
           <p className="profile-bio mb-4" style={{ color: '#555' }}>{profile.bio}</p>
