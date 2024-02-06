@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import profilesData from '../data/profiles.json';
+import "../styleSheets/ProfilePage.css"
+import Logo from '../components/logo.png';
 
 const ProfilePage: React.FC = () => {
   // Get the profile ID from the URL params
@@ -13,26 +15,28 @@ const ProfilePage: React.FC = () => {
   const profile = profilesData.find((p) => p.id === profileId);
 
   if (!profile) {
-    return <div>Profile not found</div>;
+    return <div className="container py-4 text-center">Profile not found</div>;
   }
 
   return (
+    
     <div className="profile-page">
-      <h1>Profile Details</h1>
-      <div className="profile-card">
-        <img src={profile.image} alt={profile.name}  />
-        <h2 className="profile-details">{profile.name}</h2>
-        <p className="profile-details">{`${profile.age} years old, ${profile.location}`}</p>
-        <p className="profile-bio">{profile.bio}</p>
-        <p>Interests: {profile.interests.join(', ')}</p>
-        <p>Height: {profile.height}</p>
-        <p>Relationship Status: {profile.relationshipStatus}</p>
-        <p>Looking For: {profile.lookingFor}</p>
-
+        <img src={Logo} alt="Logo" style={{width: '200px', height: 'auto'}} />
+      <div className="profile-card bg-light p-4 rounded shadow">
+        <img src={profile.image} className="card-img-top" alt={profile.name} style={{ maxWidth: '500px', height: 'auto', borderRadius: '10px' }} />
+        <div className="card-body">
+          <h5 className="card-title fs-4">{profile.name}</h5>
+          <p className="profile-details mb-4 fs-5" style={{ color: '#333' }}>{`${profile.age} years old, ${profile.location}`}</p>
+          <p className="profile-bio mb-4" style={{ color: '#555' }}>{profile.bio}</p>
+          <p className="card-text">Interests: {profile.interests.join(', ')}</p>
+          <p className="card-text">Height: {profile.height}</p>
+          <p className="card-text">Relationship Status: {profile.relationshipStatus}</p>
+          <p className="card-text">Looking For: {profile.lookingFor}</p>
+          <button className="btn btn-primary like-button mt-4">Like</button>
+        </div>
       </div>
     </div>
   );
 };
 
 export default ProfilePage;
-

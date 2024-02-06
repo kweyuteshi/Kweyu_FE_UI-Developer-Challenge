@@ -1,0 +1,22 @@
+.landing-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; 
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .landing-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .card-container a:hover .card {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }

@@ -1,24 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProfileCard from '../components/ProfileCard'; //Import the PofileCard component
-import profilesData from '../data/profiles.json'; //Import the profiles data from the json file
+import profilesData from '../data/profiles.json';
+import "../styleSheets/LandingPage.css"
+import Logo from '../components/logo.png';
 
 const LandingPage: React.FC = () => {
   return (
-    <div>
-      <h1>Available Profiles</h1>
-      {/*Container for displaying profile cards*/}
-      <div className="card-container">
+    <div className="landing-page">
+       <img src={Logo} alt="Logo" style={{width: '250px', height: 'auto'}} />
+      <h1 className="text-center my-4 fs-2">Welcome to Omutinda</h1>
+      <p className="text-center my-4 fs-2">Hoping you will find the sukuma to your ugali ;)</p>
 
-         {/* Map through the profiles data and create a ProfileCard component for each profile */}
+      <div className="row">
         {profilesData.map((profile) => (
-
-            //Linking the profile page with th eprofile's ID as part of the URL
-          <Link key={profile.id} to={`/profile/${profile.id}`}>
-
-            {/* Render the ProfileCard component with the profile data */}
-            <ProfileCard profile={profile} />
-          </Link>
+          <div key={profile.id} className="col-md-4 mb-4">
+            <div className="card shadow">
+              <img src={profile.image} className="card-img-top" alt={profile.name} />
+              <div className="card-body">
+                <h5 className="card-title">{profile.name}</h5>
+                <p className="card-text">{`${profile.age} years old, ${profile.location}`}</p>
+                <Link to={`/profile/${profile.id}`} className="btn btn-primary">View Profile</Link>
+              </div>
+            </div>
+          </div>
         ))}
       </div>
     </div>
