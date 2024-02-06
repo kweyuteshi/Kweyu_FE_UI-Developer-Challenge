@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Ufuoma Adewale",
+      "age": 28,
+      "location": "Githurai",
+      "image": "https://link-to-image1.com",
+      "bio": "I love outdoor activities and enjoy exploring new places.",
+      "interests": ["Hiking", "Photography", "Cooking"],
+      "height": "6'0\"",
+      "relationshipStatus": "Single",
+      "lookingFor": "Casual Dating" 
+    },
+
+    {
+        "id": 2,
+        "name": "Konstantine Alvíss",
+        "age": 18,
+        "location": "Roysambu",
+        "image": "https://link-to-image1.com",
+        "bio": "Fitness enthusiast and adrenaline junkie. Love trying out new workout routines.",
+        "interests": ["Fitness", "Adventure sports", "Traveling"],
+        "height": "5'11\"",
+        "relationshipStatus": "Divorced",
+        "lookingFor": "Activity Partner"   
+      },
+
+      {
+        "id": 3,
+        "name": "Dollie Kate",
+        "age": 28,
+        "location": "Lavington",
+        "image": "https://link-to-image1.com",
+        "bio": "Tech geek and aspiring entrepreneur. Enjoy coding and building new things.",
+        "interests": ["Programming", "Startups", "Board games"],
+        "height": "5'6\"",
+        "relationshipStatus": "Single",
+        "lookingFor": "Intellectual Connection"
+      },
+
+      {
+        "id": 4,
+        "name": "Alise Zariah",
+        "age": 32,
+        "location": "Karen",
+        "image": "https://link-to-image1.com",
+        "bio": "Passionate about art and culture. Always up for a good book or a museum visit.",
+        "interests": ["Art", "Reading", "Museum visits"],  
+        "height": "5'8\"",
+        "relationshipStatus": "Single",
+        "lookingFor": "Serious Relationship"
+      },
+
+      {
+        "id": 5,
+        "name": "Deanna Sabella",
+        "age": 23,
+        "location": "Kangemi",
+        "image": "https://link-to-image1.com",
+        "bio": "Beach lover and foodie. Trying out different cuisines is my favorite pastime.",
+        "interests": ["Beach", "Food", "Traveling"],
+        "relationshipStatus": "Single",
+        "lookingFor": "Foodie Partner"
+      }
+    
+  ]
+  
